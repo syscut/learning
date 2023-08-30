@@ -1,13 +1,42 @@
 package learning;
 
-import java.time.LocalDate;
+import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.regex.Pattern;
 
 public class demo01 {
 	public static void main(String[] args) {
-		System.out.println(LocalDate.now());
-		Integer a = 1;
+//		Locale.setDefault(Locale.TAIWAN);
+//		Map<String, Object> m = Map.of("a", "1", "b", "2");
+		Double a = 1.0000;
+
+		System.out.println(BigDecimal.valueOf(1000, 3));
+//		Map<String, Map<String, Object>> m = new LinkedHashMap<>();
+//		Map<String, Object> l = new LinkedHashMap<>();
+//		if (m.get("a") == null) {
+//			System.out.println("m.get(a) == null");
+//			l.put("a.a", "1");
+//			m.put("a", l);
+//		} else {
+//			System.out.println("not null");
+//		}
+//		l = Map.of("a.b", "2");
+//		m.put("a", l);
+
+//		m.entrySet().forEach(k -> {
+//			System.out.println(k.getKey() + " : " + k.getValue());
+//		});
+
+//		Iterator<Entry<String, Object>> i = m.entrySet().iterator();
+//		System.out.println(i.hasNext());
+//		Entry<String, Object> e = i.next();
+//		System.out.println(e.getKey() + " : " + e.getValue());
+//		e = i.next();
+//		System.out.println(e.getKey() + " : " + e.getValue());
+//		e = i.next();
+//		System.out.println(e.getKey() + " : " + e.getValue());
+//		e = i.next();
+//		System.out.println(e.getKey() + " : " + e.getValue());
 
 	}
 
